@@ -1,6 +1,7 @@
 <div id="top"></div>
 
 # Easy Work Outsourcing
+![Alt Text](https://github.com/nathannovaes/documentation-easy-work/blob/main/Peek%202022-04-09%2000-55.gif)
 
 Nathan Vitiver Novaes - nathan.vitiver@gmail.com
 
