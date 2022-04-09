@@ -67,7 +67,7 @@ You need to have installed the PHP 7.4 (cli) on your local computer and Composer
    cd web-easy-work npm install
    ```
 
-3. Start forntend 
+3. Start frontend 
    ```sh
    npm run dev
    ```
@@ -89,20 +89,12 @@ http://localhost:8081/
 
 ## Roadmap
 
-### Mandatory Features
-- [x] SQL Database to store users and record logs
-- [x] User authentication
-- [x] Endpoints
-    - [x] POST  Create user
-    - [x] GET   Request stock quote
-    - [x] GET   History queries showing the latest entries firts
-- [x] Send an email
+### Features
+- [x] Register category
+- [x] Register Notice
+- [x] Home page with all notices
+- [x] Search Bar
 
-### Bonus features
-- [x] Unit Test
-- [x] RabbitMQ to send the email asynchronously
-- [x] JWT Authentication
-- [x] Containerize the app 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
