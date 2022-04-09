@@ -44,19 +44,24 @@ You need to have installed the PHP 8.1 (cli) on your local computer and Composer
 ```sh
   docker-compose up --build -d
 ```
-**Create your Database
-```sh
-  vendor/bin/doctrine orm:schema-tool:create
-```
 3. Start project containers
    ```sh
    composer start
    ```
 
-#### Frontend Configuration
-1. Run npm
+**Create your Database
+
+   You need to create a database called easy_db. Access PhpMyAdmin and create it: http://localhost:8081/
+   
+4. Run migrations to create our tables
    ```sh
-   cd web-easy-work npm install
+   php artisan migrate
+   ```
+
+#### Frontend Configuration
+1. Get in web-easy-work folder and run npm
+   ```sh
+   npm install
    ```
 
 3. Start frontend 
