@@ -8,7 +8,7 @@ Nathan Vitiver Novaes - nathan.vitiver@gmail.com
 ### Built With
 
 * [Docker](https://www.docker.com/)
-* [PHP](https://www.php.net/releases/7_4_0.php)
+* [PHP](https://www.php.net/releases/8_1_0.php)
 * [Laravel Framework](https://laravel.com/)
 * [Postman](https://www.postman.com/)
 
@@ -19,15 +19,7 @@ Nathan Vitiver Novaes - nathan.vitiver@gmail.com
 
 ### Prerequisites
 
-You need to have installed the PHP 7.4 (cli) on your local computer and Composer version 2.2.7.
-
-  ```sh
-    sudo apt install software-properties-common
-    sudo add-apt-repository ppa:ondrej/php
-    sudo apt update
-    sudo apt install php7.4
-    php -v
-  ```
+You need to have installed the PHP 8.1 (cli) on your local computer and Composer version 2.3.3.
 
 ### Installation
 
@@ -42,7 +34,7 @@ You need to have installed the PHP 7.4 (cli) on your local computer and Composer
 #### API Configuration
 1. Run composer
    ```sh
-   cd api-easy-work composer install
+   cd api-easy-work && composer install
    ```
 2. Copy env file
    ```sh
